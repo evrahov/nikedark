@@ -1,0 +1,118 @@
+body{
+	background: url(../img/main.png) no-repeat 50% / cover;
+}
+
+/* Layout */
+.ba-container{
+	padding-left: 20px;
+	padding-right: 20px;
+	max-width: 1200px;
+}
+
+/* Typography */
+a,
+input[type="submit"],
+input[type="button"],
+button{
+	transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+}
+input[type="submit"],
+input[type="button"],
+button,
+.ba-button{
+	display: inline-block;
+}
+input[type="submit"]:hover,
+input[type="button"]:hover,
+button:hover,
+.ba-button:hover{
+
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+input[type="tel"],
+textarea,
+select {
+	transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+input[type="number"]:focus,
+input[type="tel"]:focus,
+textarea:focus,
+select:focus {
+
+}
+textarea {
+
+}
+.ba-container{
+	height: 600px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding-left: 20px;
+	padding-right: 20px;
+
+}
+.ba-product{
+	display: flex;
+	background-color:  #111a28;
+	max-width: 686px;
+	max-height: 391px;
+	padding: 21px 24px;
+	border-radius: 10px;
+
+}
+.ba-product__visual{
+	width: 65%;
+}
+.ba-product__image{
+	flex-grow: 1;
+	padding: 60px 0 60px 14px;
+
+}
+.ba-slider{
+	display: flex;
+	justify-content: center;
+}
+.ba-product__info{
+	width: 35%;
+	padding-left: 15px;
+	padding-top: 40px;
+}
+.ba-product__image{
+	padding-left: 14px ;
+	padding-bottom:65px ;
+	padding-top: 65px;
+}
+.ba-product__model{
+	font: 400 24px/1 Arial, sans-serif;
+	color:  #e1e1e1;
+	}
+.ba-product__category{
+	font: 400 14px/1 Arial, sans-serif;
+	color:  #e1e1e1;
+}
+
+.ba-sizes{
+	padding: 20px 0;
+	color: #fff;
+}
+select{
+	background:#111a28 ;
+	border:1px solid #e1e1e1;
+}
+.ba-button{
+	width: 185px;
+	background:#202835 ;
+	font: 400 14px/38px Arial, sans-serif;
+	color:  #e1e1e1
+}
+
+
